@@ -26,7 +26,9 @@ class MyApp extends StatelessWidget {
     ],
       child: Sizer(
         builder: (context, orientation, deviceType) {
-          return MaterialApp(theme: ThemeData(
+          return MaterialApp(
+            debugShowCheckedModeBanner: false,
+            theme: ThemeData(
             scaffoldBackgroundColor: Colors.white
           ),
             home:ProductScreen() ,
