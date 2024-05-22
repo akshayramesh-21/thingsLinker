@@ -142,9 +142,8 @@ class _ProductScreenState extends State<ProductScreen> {
                               padding: const EdgeInsets.all(8.0),
                               child: GestureDetector(
                                 onTap: () {
-                                  BlocProvider.of<ProductGetBloc>(context)
-                                      .add(ProductCategorySelect(
-                                          indexValue: index));
+                                  BlocProvider.of<ProductGetBloc>(context).add(
+                                      ProductCategorySelect(indexValue: index));
                                 },
                                 child: Chip(
                                   shape: RoundedRectangleBorder(
@@ -235,8 +234,4 @@ class _ProductScreenState extends State<ProductScreen> {
       ),
     );
   }
-
- 
-
- 
 }
