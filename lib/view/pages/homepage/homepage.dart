@@ -10,7 +10,7 @@ import 'package:thingslinker_test/view/pages/homepage/widgets/gridview.dart';
 import 'package:thingslinker_test/view/pages/homepage/widgets/listview.dart';
 import 'package:thingslinker_test/view/pages/homepage/widgets/popupmenu.dart';
 
-import '../pages/searchPage.dart';
+import '../search/searchPage.dart';
 
 class ProductScreen extends StatefulWidget {
   @override
